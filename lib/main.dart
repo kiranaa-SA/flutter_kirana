@@ -3,6 +3,12 @@
 import 'package:flutter/material.dart';
 import 'package:kirana_project/latihan/satu.dart';
 import 'package:kirana_project/latihan/dua.dart';
+import 'package:kirana_project/list_view/contoh_dua.dart';
+import 'package:kirana_project/list_view/contoh_empat.dart';
+import 'package:kirana_project/list_view/contoh_satu.dart';
+import 'package:kirana_project/list_view/contoh_tiga.dart';
+import 'package:kirana_project/list_view/latihan.dart';
+import 'package:kirana_project/list_view/wisata_screen.dart';
 import 'package:kirana_project/row_column/column_satu.dart';
 import 'package:kirana_project/row_column/latihan.dart';
 import 'package:kirana_project/row_column/row_column.dart';
@@ -19,7 +25,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Latihan(),
+      home: Biodata(),
     );
   }
 }
